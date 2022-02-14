@@ -1,0 +1,19 @@
+double raha;
+Console.WriteLine("VALUTTALASKURI");
+Console.WriteLine("--------------");
+Console.WriteLine("");
+Console.Write("Anna summa euroina: ");
+raha = int.Parse(Console.ReadLine()); //Käyttäjä syöttää rahamäärän");
+
+//Muunnetaan raha määrä Dollareiksi tai Punniksi
+double raha1 = raha * 1.14;
+double raha2 = raha * 0.839;
+
+//Määritetään tulostusformaatti
+string dollari = string.Format("{0,10:0.00}", raha1);
+string punta   = string.Format("{0,10:0.00}", raha2);
+
+
+//Tulostus konsoliin
+Console.WriteLine($"{dollari} $");
+Console.WriteLine($"{punta} £");
