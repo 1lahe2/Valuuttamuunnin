@@ -1,0 +1,2 @@
+# Valuuttamuunnin
+Yksinkertainen valuuttamuunnin harjoitus
